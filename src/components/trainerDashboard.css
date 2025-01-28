@@ -1,0 +1,118 @@
+/* Add base styles for the entire dashboard */
+.trainer-dashboard {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Section Styling for Panels */
+  .trainer-panel, .opportunities-panel, .operations-panel {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Typography Styling */
+  h4, h5 {
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  h6 {
+    font-weight: 500;
+  }
+  
+  /* Buttons for Add, Edit, Remove */
+  button {
+    font-weight: 500;
+  }
+  
+  /* Trainers List & Card */
+  .trainers-list .trainer-card {
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .trainers-list .trainer-card:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trainers-list p {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  .trainers-list .trainer-card .MuiCardContent-root {
+    padding: 16px;
+  }
+  
+  .trainers-list .trainer-card button {
+    margin-right: 8px;
+  }
+  
+  /* Opportunities Section */
+  .opportunities-panel .opportunity-card {
+    margin-bottom: 16px;
+    border-radius: 10px;
+  }
+  
+  .opportunities-list .MuiCardContent-root {
+    padding: 20px;
+  }
+  
+  .opportunities-panel button {
+    background-color: #56ccf2;
+    color: white;
+  }
+  
+  .opportunities-panel .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  /* Operations Section */
+  .operations-panel .task-card {
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .operations-panel button {
+    background-color: #f39c12;
+    color: white;
+    border-radius: 6px;
+    text-transform: none;
+  }
+  
+  /* Dialog (Modal) */
+  .MuiDialog-paper {
+    width: 450px;
+    max-width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .MuiDialogTitle-root {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  /* Filter Select Styling */
+  .MuiFormControl-root {
+    margin: 8px 0;
+    width: 48%;
+  }
+  
+  /* Grid Containers */
+  .MuiGrid-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Paper Styling */
+  .MuiPaper-root {
+    border-radius: 12px;
+  }
+  
